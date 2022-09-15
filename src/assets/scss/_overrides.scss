@@ -5,34 +5,9 @@
 * 2.0 - Left Sidebar Menu
 * 3.0 - Main Layout
 * 4.0 - Components
-*   4.1 - Cards
-*   4.2 - Panel
-*   4.3 - Dropdown
-*   4.4 - ProgressBar
-*   4.5 - DataView
-*   4.6 - Courses
-*   4.7 - Schedule
-*   4.8 - Calendar
-*   4.9 - InputText
-*   4.10 - Button
-*   4.11 - ScrollPanel
-*   4.12 - Carousel
-*   4.13 - Menu
-*   4.14 - Tooltip
-*   4.15 - Avatar
-*   4.16 - Discussion Boards
-*   4.17 - FileUpload
-*   4.18 - Sidebar - Full Screen
-*   4.19 - Toast
-*   4.20 - ListBox
-*   4.21 - Chat
-*   4.22 - SpeedDial
-*   4.23 - Rating
-*   4.24 - ConfirmPopup
-*   4.25 - Password Input
-*   4.26 - BlockUI
-*   4.27 - InputSwitch
-*   4.28 - Dialog
+*   4.1 - InputText
+*   4.2 - Badge
+*   4.3 - Tooltip
 * 5.0 - Icons
 * 6.0 - Scrollbars
 *
@@ -41,3 +16,67 @@
 @import 'main';
 
 // 1.0 - Top Bar Menu
+.topnav-wrapper {
+  .pi.pi-search {
+    color: $casper;
+  }
+}
+
+// 4.0 - Components
+// 4.1 - InputText
+.p-inputtext.p-component {
+  background-color: transparent;
+  border-radius: 5px;
+  color: $gainsboro;
+  border: 1px solid transparent;
+  &:enabled:focus, &:enabled:hover {
+    // border-color: $mvi-bt-blue;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+  &::placeholder {
+    color: $casper;
+    letter-spacing: 0.5px;
+  }
+}
+
+// 4.2 - Badge
+.p-badge {
+  background: deepskyblue;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  min-width: 1rem;
+  height: 1rem;
+  top: 25%;
+  right: 10%;
+  line-height: 1rem;
+}
+
+// 4.3 - Tooltip
+.p-tooltip {
+  .p-tooltip-text {
+      background: radial-gradient(circle, $space-cadet-2 0%, $space-cadet-2 100%) !important;
+      color: #EAEBEC;
+      padding: 0.5rem 0.5rem;
+      box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+      border-radius: 6px;
+      font-family: 'OpenSans Regular', sans-serif;
+      letter-spacing: 0.5px;
+      font-size: 0.75rem;
+  }
+}
+
+.p-tooltip.p-tooltip-right .p-tooltip-arrow {
+  border-right-color: $space-cadet-2;
+}
+.p-tooltip.p-tooltip-left .p-tooltip-arrow {
+  border-left-color: $space-cadet-2;
+}
+.p-tooltip.p-tooltip-top .p-tooltip-arrow {
+  border-top-color: $space-cadet-2;
+}
+.p-tooltip.p-tooltip-bottom .p-tooltip-arrow {
+  border-bottom-color: $space-cadet-2;
+}

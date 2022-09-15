@@ -91,7 +91,7 @@ import TriStateCheckbox from 'primevue/tristatecheckbox';
 
 // CSS
 import 'primevue/resources/primevue.min.css';
-import '/node_modules/primeflex/primeflex.css';
+import 'primeflex/primeflex.css';
 import 'primeicons/primeicons.css';
 import '@fullcalendar/common/main.min.css';
 import '@fullcalendar/daygrid/main.min.css';
@@ -104,6 +104,10 @@ import './assets/scss/_overrides.scss';
 
 // Icons
 // Use https://mdisearch.com/ to find names for icons
+import AccountCircleIcon from '@mkody/vue-material-design-icons/AccountCircle.vue'
+import BellIcon from '@mkody/vue-material-design-icons/Bell.vue'
+import CogIcon from '@mkody/vue-material-design-icons/Cog.vue'
+import PowerIcon from '@mkody/vue-material-design-icons/Power.vue'
 
 const app = createApp(App)
 
@@ -114,7 +118,6 @@ app.use(router)
 
 app.directive('tooltip', Tooltip);
 app.directive('ripple', Ripple);
-app.directive('code', CodeHighlight);
 app.directive('badge', BadgeDirective);
 
 app.component('Accordion', Accordion);
@@ -196,5 +199,12 @@ app.component('ToggleButton', ToggleButton);
 app.component('Tree', Tree);
 app.component('TreeTable', TreeTable);
 app.component('TriStateCheckbox', TriStateCheckbox);
+
+// Icons
+// Use https://mdisearch.com/ to find names for icons
+app.component('account-circle-icon', AccountCircleIcon);
+app.component('bell-icon', BellIcon);
+app.component('cog-icon', CogIcon);
+app.component('power-icon', PowerIcon);
 
 app.mount('#app')

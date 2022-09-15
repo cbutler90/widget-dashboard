@@ -16,6 +16,11 @@
 @import 'variables';
 
 // 1.0 - HTML Elements
+body {
+  background-color: $space-cadet;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -23,7 +28,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    color: $heather;
+    // color: $heather;
     letter-spacing: 1px;
     font-family: 'Lato Regular', sans-serif;
 }
@@ -48,23 +53,8 @@ span {
 a {
     &:hover,
     &:focus {
-        color: $pacific-blue;
+        // color: $pacific-blue;
         transition: color 200ms linear;
-    }
-    .mvi-bt-blue {
-        &:hover,
-        &:focus {
-            color: $pacific-blue;
-            transition: color 200ms linear;
-        }
-    }
-    &.mvi-bt-blue,
-    &.mvi-blue {
-        &:hover,
-        &:focus {
-            color: $pacific-blue;
-            transition: color 200ms linear;
-        }
     }
     .gainsboro {
         &:hover,
@@ -76,6 +66,21 @@ a {
 }
 
 // 2.0 - Colors
+.raisin-black-bg {
+  background-color: $raisin-black;
+}
+
+.casper {
+  color: $casper;
+}
+
+.gainsboro {
+  color: $gainsboro;
+}
+
+.platinum {
+  color: $platinum;
+}
 
 // 3.0 - Fonts
 @font-face {
@@ -142,6 +147,9 @@ a {
 }
 
 // 4.0 - Utilities
+.cursor-pointer {
+  cursor: pointer;
+}
 
 // 5.0 - Responsiveness
 @mixin for-sm-screens {

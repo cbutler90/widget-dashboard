@@ -1,0 +1,42 @@
+<template>
+  <header class="flex flex-row align-items-center p-3 raisin-black-bg">
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="@/assets/logo.svg"
+      width="20"
+      height="20"
+    />
+    <div class="topnav-wrapper w-full flex justify-content-between align-items-center">
+      <span class="p-input-icon-left w-full flex flex-row align-items-center pl-5">
+        <i class="pi pi-search pl-2" />
+        <InputText
+          type="text"
+          v-model="value1"
+          placeholder="Search..."
+          class="search-input pl-5 py-2 pr-2"
+        />
+      </span>
+      <nav class="flex flex-row">
+        <div class="nav-icon px-3 cursor-pointer">
+          <account-circle-icon class="casper" title="Profile" aria-label="Profile" />
+        </div>
+        <div class="nav-icon px-3 cursor-pointer">
+          <bell-icon class="casper" v-badge="2" title="Notifications" aria-label="Notifications" />
+        </div>
+        <div class="nav-icon px-3 cursor-pointer">
+          <cog-icon class="casper" title="Settings" aria-label="Settings" />
+        </div>
+        <div class="nav-icon px-3 cursor-pointer">
+          <power-icon class="casper" title="Logout" aria-label="Logout" />
+        </div>
+      </nav>
+    </div>
+  </header>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style></style>

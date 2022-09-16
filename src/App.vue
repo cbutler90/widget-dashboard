@@ -1,12 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from '@/components/install-coms/HelloWorld.vue'
+import SideNav from '@/components/SideNav.vue'
 import TopNav from '@/components/TopNav.vue'
 </script>
 
 <template>
-  <div class="w-full">
-    <TopNav />
+  <div class="flex flex-row">
+    <SideNav class="w-auto" />
+    <TopNav class="w-full" />
   </div>
 </template>
 

@@ -1,12 +1,5 @@
 <template>
-  <header class="flex flex-row align-items-center p-3 raisin-black-bg">
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="20"
-      height="20"
-    />
+  <header class="flex flex-row align-items-center p-3 raisin-black-bg" style="height: 32px">
     <div class="topnav-wrapper w-full flex justify-content-between align-items-center">
       <span class="p-input-icon-left w-full flex flex-row align-items-center pl-5">
         <i class="pi pi-search pl-2" />

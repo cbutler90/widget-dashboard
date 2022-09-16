@@ -1,4 +1,10 @@
 <template>
+  <!-- @TODO: 
+          fix styling on hover, focused search 
+          change styling on hover/focus icon links
+          add dropdown notifications
+          change color on badge
+  -->
   <header class="flex flex-row align-items-center p-3 raisin-black-bg" style="height: 32px">
     <div class="topnav-wrapper w-full flex justify-content-between align-items-center">
       <span class="p-input-icon-left w-full flex flex-row align-items-center pl-5">

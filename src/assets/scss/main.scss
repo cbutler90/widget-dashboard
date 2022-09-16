@@ -27,47 +27,67 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
-    // color: $heather;
-    letter-spacing: 1px;
-    font-family: 'Lato Regular', sans-serif;
+  margin: 0;
+  // color: $heather;
+  letter-spacing: 1px;
+  font-family: 'Lato Regular', sans-serif;
 }
 
-p, ol, ul {
-    color: #a4a5b3;
-    font-family: 'OpenSans Regular', sans-serif;
-    letter-spacing: 0.5px;
+p,
+ol,
+ul {
+  color: #a4a5b3;
+  font-family: 'OpenSans Regular', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 h6 {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 button,
 a,
 span {
-    font-family: 'OpenSans Regular', sans-serif;
-    letter-spacing: 0.5px;
+  font-family: 'OpenSans Regular', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 a {
-    &:hover,
-    &:focus {
-        // color: $pacific-blue;
-        transition: color 200ms linear;
-    }
-    .gainsboro {
-        &:hover,
-        &:focus {
-            color: #fff;
-            transition: color 200ms linear;
-        }
-    }
+  &:hover,
+  &:focus {
+    // color: $pacific-blue;
+    transition: color 200ms linear;
+  }
+  // &.shadow-blue {
+  //   &:hover,
+  //   &:focus {
+  //     color: $casper;
+  //     transition: color 200ms linear;
+  //   }
+  // }
+  // .gainsboro {
+  //   &:hover,
+  //   &:focus {
+  //     color: #fff;
+  //     transition: color 200ms linear;
+  //   }
+  // }
+  // .casper {
+  //   &:hover,
+  //   &:focus {
+  //     color: $beau-blue;
+  //     transition: color 200ms linear;
+  //   }
+  // }
 }
 
 // 2.0 - Colors
 .raisin-black-bg {
   background-color: $raisin-black;
+}
+
+.shadow-blue {
+  color: $shadow-blue;
 }
 
 .casper {
@@ -84,66 +104,76 @@ a {
 
 // 3.0 - Fonts
 @font-face {
-    font-family: 'Dotted';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Dotted'), url('/assets/fonts/dotted/Dotted.ttf') format('truetype');
+  font-family: 'Dotted';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Dotted'),
+    url('/assets/fonts/dotted/Dotted.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Lato Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Lato Regular'), url('/assets/fonts/lato/Lato-Regular.ttf') format('truetype');
+  font-family: 'Lato Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato Regular'),
+    url('/assets/fonts/lato/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Lato Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Lato Light'), url('/assets/fonts/lato/Lato-Light.ttf') format('truetype');
+  font-family: 'Lato Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato Light'),
+    url('/assets/fonts/lato/Lato-Light.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Lato Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Lato Thin'), url('/assets/fonts/lato/Lato-Thin.ttf') format('truetype');
+  font-family: 'Lato Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato Thin'),
+    url('/assets/fonts/lato/Lato-Thin.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto Medium';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Roboto Medium'), url('/assets/fonts/roboto/Roboto-Medium.ttf') format('truetype');
+  font-family: 'Roboto Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'),
+    url('/assets/fonts/roboto/Roboto-Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Roboto Regular'), url('/assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+  font-family: 'Roboto Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Regular'),
+    url('/assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Roboto Light'), url('/assets/fonts/roboto/Roboto-Light.ttf') format('truetype');
+  font-family: 'Roboto Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Light'),
+    url('/assets/fonts/roboto/Roboto-Light.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'OpenSans Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('OpenSans Regular'), url('/assets/fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+  font-family: 'OpenSans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('OpenSans Regular'),
+    url('/assets/fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'SourceSansPro Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SourceSansPro Regular'), url('/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf') format('truetype');
+  font-family: 'SourceSansPro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SourceSansPro Regular'),
+    url('/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf')
+      format('truetype');
 }
 
 // 4.0 - Utilities
@@ -153,59 +183,59 @@ a {
 
 // 5.0 - Responsiveness
 @mixin for-sm-screens {
-    @media (max-width: 576px) {
-        @content;
-    }
+  @media (max-width: 576px) {
+    @content;
+  }
 }
 @mixin for-md-screens {
-    @media (min-width: 768px) {
-        @content;
-    }
+  @media (min-width: 768px) {
+    @content;
+  }
 }
 @mixin for-lg-screens {
-    @media (min-width: 992px) {
-        @content;
-    }
+  @media (min-width: 992px) {
+    @content;
+  }
 }
 @mixin for-xl-screens {
-    @media (min-width: 1200px) {
-        @content;
-    }
+  @media (min-width: 1200px) {
+    @content;
+  }
 }
 @mixin for-menu-transition {
-    @media (min-width: 1350px) {
-        @content;
-    }
+  @media (min-width: 1350px) {
+    @content;
+  }
 }
 @mixin for-2xl-screens {
-    @media (min-width: 1600px) {
-        @content;
-    }
+  @media (min-width: 1600px) {
+    @content;
+  }
 }
 @mixin for-3xl-screens {
-    @media (min-width: 1920px) {
-        @content;
-    }
+  @media (min-width: 1920px) {
+    @content;
+  }
 }
 @mixin for-4xl-screens {
-    @media (min-width: 2560px) {
-        @content;
-    }
+  @media (min-width: 2560px) {
+    @content;
+  }
 }
 @mixin for-below-laptop-height {
-    @media (max-height: 818px) and (min-width: 992px) {
-        @content;
-    }
+  @media (max-height: 818px) and (min-width: 992px) {
+    @content;
+  }
 }
 @mixin for-above-laptop-height {
-    @media (min-height: 900px) {
-        @content;
-    }
+  @media (min-height: 900px) {
+    @content;
+  }
 }
 @mixin for-3xl-height {
-    @media (min-height: 1080px) {
-        @content;
-    }
+  @media (min-height: 1080px) {
+    @content;
+  }
 }
 
 /* 6.0 - Keyframes */

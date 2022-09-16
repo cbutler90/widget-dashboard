@@ -80,3 +80,27 @@
 .p-tooltip.p-tooltip-bottom .p-tooltip-arrow {
   border-bottom-color: $space-cadet-2;
 }
+
+// 6.0 - Scrollbars
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.menu-wrapper.layout-sidebar-active .layout-menu-container::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.menu-wrapper.layout-sidebar-active .layout-menu-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.custom .p-scrollpanel-bar,
+::-webkit-scrollbar-thumb {
+    background-color: #2b2d46 !important;
+    opacity: 0.75;
+    transition: background-color 0.3s;
+}

@@ -98,6 +98,7 @@ import '@fullcalendar/daygrid/main.min.css';
 import '@fullcalendar/timegrid/main.min.css';
 
 import './assets/scss/main.scss';
+import './assets/scss/primevue.scss';
 import './assets/scss/_breakpoints.scss';
 import './assets/scss/_overrides.scss';
 // import './assets/main.css'

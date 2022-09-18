@@ -3,7 +3,7 @@
     <ScrollPanel class="w-full mb-3 pt-3" style="height: 382px">
       <AnnouncementCard />
     </ScrollPanel>
-    <a href="#" class="mvi-bt-blue">View All Announcements</a>
+    <a href="#">View All Announcements</a>
   </WidgetContainer>
 </template>
 

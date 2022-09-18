@@ -3605,9 +3605,9 @@
 }
 
 .p-fileupload .p-fileupload-buttonbar {
-  background: #293241;
+  background: $space-cadet-3;
   padding: 1rem;
-  border: 1px solid #545B67;
+  border: none;
   color: $platinum;
   border-bottom: 0 none;
   border-top-right-radius: 6px;
@@ -3622,9 +3622,9 @@
   box-shadow: 0 0 0 1px #DDF15E;
 }
 .p-fileupload .p-fileupload-content {
-  background: #293241;
+  background: $space-cadet-3;
   padding: 2rem 1rem;
-  border: 1px solid #545B67;
+  border-top: 1px solid #4a4e78;
   color: $platinum;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;

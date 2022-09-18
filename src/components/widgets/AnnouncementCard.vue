@@ -18,7 +18,7 @@
         </li>
       </ul>
     </ScrollPanel>
-    <a href="#" class="mvi-bt-blue">View All Announcements</a>
+    <a href="#">View All Announcements</a>
   </div>
 </template>
 

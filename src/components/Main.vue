@@ -46,6 +46,9 @@
             </div>
           </div>
           <div class="flex flex-row">
+            <div class="col-5">
+              <Messages class="mx-2 my-3" />
+            </div>
             <div class="col-7">
               <FileUploadW class="mx-2 my-3" />
             </div>
@@ -77,7 +80,8 @@ import Announcements from '@/components/widgets/Announcements.vue';
 import Chart1 from '@/components/widgets/Chart1.vue';
 import Chart2 from '@/components/widgets/Chart2.vue';
 import Chart3 from '@/components/widgets/Chart3.vue';
-import FileUploadW from '@/components/widgets/FileUploadW.vue'
+import FileUploadW from '@/components/widgets/FileUploadW.vue';
+import Messages from '@/components/widgets/Messages.vue';
 import QuickStat from '@/components/widgets/QuickStat.vue';
 import Schedule from '@/components/widgets/Schedule.vue';
 import StudentStats from '@/components/widgets/StudentStats.vue';
@@ -89,6 +93,7 @@ export default {
     Chart2,
     Chart3,
     FileUploadW,
+    Messages,
     QuickStat,
     Schedule,
     StudentStats,

@@ -5,7 +5,7 @@
   -->
   <div class="main-wrapper">
     <div class="p-3">
-      <div class="first-row flex flex-row">
+      <div class="flex flex-row">
         <div class="col-2 p-0">
           <QuickStat
             class="m-2"
@@ -48,12 +48,26 @@
           <Announcements class="mx-2 my-3" />
         </div>
       </div>
+      <div class="flex flex-row">
+        <div class="col-4 p-0">
+          <Chart1 class="mx-2" />
+        </div>
+        <div class="col-4 p-0">
+          <Chart2 class="mx-2" />
+        </div>
+        <div class="col-4 p-0">
+          <Chart3 class="mx-2" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Announcements from '@/components/widgets/Announcements.vue';
+import Chart1 from '@/components/widgets/Chart1.vue';
+import Chart2 from '@/components/widgets/Chart2.vue';
+import Chart3 from '@/components/widgets/Chart3.vue';
 import QuickStat from '@/components/widgets/QuickStat.vue';
 import Schedule from '@/components/widgets/Schedule.vue';
 import StudentStats from '@/components/widgets/StudentStats.vue';
@@ -61,6 +75,9 @@ import StudentStats from '@/components/widgets/StudentStats.vue';
 export default {
   components: {
     Announcements,
+    Chart1,
+    Chart2,
+    Chart3,
     QuickStat,
     Schedule,
     StudentStats,

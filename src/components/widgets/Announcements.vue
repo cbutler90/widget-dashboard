@@ -16,9 +16,6 @@ export default {
     AnnouncementCard,
     WidgetContainer,
   },
-  data() {
-    return {};
-  },
 };
 </script>
 

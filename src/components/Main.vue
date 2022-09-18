@@ -1,6 +1,6 @@
 <template>
   <!-- @TODO: 
-          fix colors on quick stat cards
+          fix colors
   -->
   <div class="main-wrapper">
     <div class="p-3">
@@ -19,6 +19,7 @@
         </div>
         <div class="col-4 p-0">
           <Schedule class="m-2" />
+          <StudentStats class="mx-2 my-3" />
         </div>
       </div>
     </div>
@@ -27,11 +28,13 @@
 
 <script>
 import Schedule from '@/components/widgets/Schedule.vue'
+import StudentStats from '@/components/widgets/StudentStats.vue'
 import QuickStat from '@/components/widgets/QuickStat.vue'
 
 export default {
   components: {
     Schedule,
+    StudentStats,
     QuickStat
   }
 }

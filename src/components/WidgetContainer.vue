@@ -13,7 +13,7 @@
       </Toolbar>
     </template>
     <template #content>
-      <slot class="p-3"></slot>>
+      <slot class="p-3"></slot>
     </template>
   </Card>
 </template>

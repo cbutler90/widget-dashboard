@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from '@/components/install-coms/HelloWorld.vue'
+import Main from '@/components/Main.vue'
 import SideNav from '@/components/SideNav.vue'
 import TopNav from '@/components/TopNav.vue'
 </script>
@@ -8,7 +9,10 @@ import TopNav from '@/components/TopNav.vue'
 <template>
   <div class="flex flex-row">
     <SideNav class="w-auto" />
-    <TopNav class="w-full" />
+    <div class="flex flex-column w-full">
+      <TopNav />
+      <Main />
+    </div>
   </div>
 </template>
 

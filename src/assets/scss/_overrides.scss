@@ -9,6 +9,7 @@
 *   4.2 - Badge
 *   4.3 - Tooltip
 *   4.4 - FullCalendar
+*   4.5 - ScrollPanel
 * 5.0 - Icons
 * 6.0 - Scrollbars
 *
@@ -33,7 +34,7 @@
   border: 1px solid transparent;
   &:enabled:focus,
   &:enabled:hover {
-    border-color: $capri;
+    border-color: #a3b0c240;
   }
   &:focus {
     box-shadow: none;
@@ -233,6 +234,24 @@
         color: $casper;
       }
     }
+  }
+}
+
+// 4.5 - ScrollPanel
+.p-scrollpanel {
+  .p-scrollpanel-content {
+      padding: 0;
+      padding-right: 1rem;
+  }
+  .p-scrollpanel-bar {
+      margin-left: 1em !important;
+      background: #283a4b;
+  }
+  &:hover,
+  &:active {
+      .p-scrollpanel-bar {
+          margin-left: 1em !important;
+      }
   }
 }
 

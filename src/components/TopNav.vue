@@ -8,7 +8,7 @@
   <header class="flex flex-row align-items-center p-3 raisin-black-bg" style="height: 64px">
     <div class="topnav-wrapper w-full flex justify-content-between align-items-center">
       <span class="p-input-icon-left w-full flex flex-row align-items-center pl-3">
-        <i class="pi pi-search pl-2" />
+        <i class="pi pi-search pl-3" />
         <InputText
           type="text"
           v-model="value1"

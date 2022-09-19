@@ -11,37 +11,37 @@
             <div class="col-3 p-0">
               <QuickStat
                 class="m-2"
-                cardClass="orange-border"
+                cardClass="marigold-border"
                 statCategory="Students Online"
                 statNumber="24"
-                iconClass="pi-users orange"
+                iconClass="pi-users marigold"
               />
             </div>
             <div class="col-3 p-0">
               <QuickStat
                 class="m-2"
-                cardClass="green-border"
+                cardClass="lime-green-border"
                 statCategory="Active Courses"
                 statNumber="8"
-                iconClass="pi-th-large green"
+                iconClass="pi-th-large lime-green"
               />
             </div>
             <div class="col-3 p-0">
               <QuickStat
                 class="m-2"
-                cardClass="blue-border"
+                cardClass="neon-blue-border"
                 statCategory="Courses"
                 statNumber="112"
-                iconClass="pi-book blue"
+                iconClass="pi-book neon-blue"
               />
             </div>
             <div class="col-3 p-0">
               <QuickStat
                 class="m-2"
-                cardClass="pink-border"
+                cardClass="orchid-border"
                 statCategory="Completed Courses"
                 statNumber="47"
-                iconClass="pi-check-circle pink"
+                iconClass="pi-check-circle orchid"
               />
             </div>
           </div>

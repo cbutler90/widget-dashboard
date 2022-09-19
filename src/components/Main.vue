@@ -46,21 +46,23 @@
             </div>
           </div>
           <div class="flex flex-row">
-            <div class="col-5">
+            <div class="col-5 p-0">
               <Discussion class="mx-2 my-3" />
+              <TaskList class="mx-2 my-3" />
             </div>
-            <div class="col-7">
+            <div class="col-7 p-0">
               <FileUploadW class="mx-2 my-3" />
+              <Messages class="mx-2 my-3" />
             </div>
           </div>
-          <div class="flex flex-row">
+          <!-- <div class="flex flex-row">
             <div class="col-5">
               <TaskList class="mx-2 my-3" />
             </div>
             <div class="col-7">
               <Messages class="mx-2 my-3" />
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="col-4 p-0">
           <Schedule class="m-2" />

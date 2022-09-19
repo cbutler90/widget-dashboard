@@ -34,12 +34,12 @@
             </div>
         </ScrollPanel>
         <div class="control-buttons flex align-items-center justify-content-between">
-            <Button class="p-button-text mvi-bt-blue p-0" v-if="completed.length > 0" @click="toggleShowComplete">
+            <Button class="task-btn p-button-text p-0 text-sm" v-if="completed.length > 0" @click="toggleShowComplete">
                 <span v-if="!showComplete">Show</span>
                 <span v-else>Hide</span>
                 &nbsp;Complete
             </Button>
-            <Button class="p-button-text mvi-blue p-0" v-if="tasks.length > 0" @click="clearAll">Clear All</Button>
+            <Button class="task-btn p-button-text p-0 text-sm" v-if="tasks.length > 0" @click="clearAll">Clear All</Button>
         </div>
     </div>
   </WidgetContainer>
@@ -168,9 +168,10 @@ export default {
 }
 
 .p-button.p-button-text {
+  color: #33CCFF !important;
   &:enabled:hover {
       background: transparent;
-      color: blue !important;
+      color: #008AB8 !important;
       transition: color 200ms linear !important;
   }
 }
@@ -225,12 +226,12 @@ ul.tasks {
               width: 20px;
               height: 20px;
               border-radius: 2px;
-              border: 1px solid blue;
+              border: 1px solid #008AB8;
               background-color: transparent;
           }
           &:checked {
               + label {
-                  background: blue;
+                  background: #008AB8;
                   &:after {
                       display: block;
                       position: absolute;

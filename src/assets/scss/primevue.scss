@@ -1300,7 +1300,7 @@
   background: #FFE082;
 }
 .p-password-panel .p-password-meter .p-password-strength.strong {
-  background: #C5E1A5;
+  background: #6BD425;
 }
 
 .p-radiobutton {
@@ -1843,53 +1843,70 @@
   color: #81D4FA;
 }
 
-.p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button {
-  color: #121212;
-  background: #C5E1A5;
-  border: 1px solid #C5E1A5;
+.p-button.p-button-success,
+.p-buttonset.p-button-success > .p-button,
+.p-splitbutton.p-button-success > .p-button {
+  background: #2b2d46;
+  border: 1px solid #414469;
+  padding: 0.5rem;
+  color: #d9d9d9;
 }
 .p-button.p-button-success:enabled:hover, .p-buttonset.p-button-success > .p-button:enabled:hover, .p-splitbutton.p-button-success > .p-button:enabled:hover {
-  background: #b2d788;
-  color: #121212;
-  border-color: #b2d788;
+  color: #eaebec;
+  background: #3c3e60 !important;
+  border: 1px solid #3c3e60 !important;
 }
 .p-button.p-button-success:enabled:focus, .p-buttonset.p-button-success > .p-button:enabled:focus, .p-splitbutton.p-button-success > .p-button:enabled:focus {
-  box-shadow: 0 0 0 1px #d6eac0;
+  box-shadow: 0 0 0 1px transparent;
 }
 .p-button.p-button-success:enabled:active, .p-buttonset.p-button-success > .p-button:enabled:active, .p-splitbutton.p-button-success > .p-button:enabled:active {
   background: #9fce6b;
   color: #121212;
   border-color: #9fce6b;
 }
+.p-button.p-button-success.activated,
+.p-buttonset.p-button-success > .p-button.activated,
+.p-splitbutton.p-button-success > .p-button.activated {
+  color: #fff;
+  background: #6BD425;
+  border: 1px solid #6BD425;
+}
+.p-button.p-button-success.activated:enabled:hover,
+.p-buttonset.p-button-success > .p-button.activated:enabled:hover,
+.p-splitbutton.p-button-success > .p-button.activated:enabled:hover {
+  color: #fff;
+  background: #4F9C1C !important;
+  border: 1px solid #4F9C1C !important;
+}
 .p-button.p-button-success.p-button-outlined, .p-buttonset.p-button-success > .p-button.p-button-outlined, .p-splitbutton.p-button-success > .p-button.p-button-outlined {
   background-color: transparent;
-  color: #C5E1A5;
+  color: #6BD425;
   border: 1px solid;
 }
 .p-button.p-button-success.p-button-outlined:enabled:hover, .p-buttonset.p-button-success > .p-button.p-button-outlined:enabled:hover, .p-splitbutton.p-button-success > .p-button.p-button-outlined:enabled:hover {
-  background: rgba(197, 225, 165, 0.04);
-  color: #C5E1A5;
+  background: #6BD42504;
+  color: #6BD425;
   border: 1px solid;
 }
 .p-button.p-button-success.p-button-outlined:enabled:active, .p-buttonset.p-button-success > .p-button.p-button-outlined:enabled:active, .p-splitbutton.p-button-success > .p-button.p-button-outlined:enabled:active {
-  background: rgba(197, 225, 165, 0.16);
-  color: #C5E1A5;
+  background: #6BD42516;
+  color: #6BD425;
   border: 1px solid;
 }
 .p-button.p-button-success.p-button-text, .p-buttonset.p-button-success > .p-button.p-button-text, .p-splitbutton.p-button-success > .p-button.p-button-text {
   background-color: transparent;
-  color: #C5E1A5;
+  color: #6BD425;
   border-color: transparent;
 }
 .p-button.p-button-success.p-button-text:enabled:hover, .p-buttonset.p-button-success > .p-button.p-button-text:enabled:hover, .p-splitbutton.p-button-success > .p-button.p-button-text:enabled:hover {
-  background: rgba(197, 225, 165, 0.04);
+  background: #6BD42504;
   border-color: transparent;
-  color: #C5E1A5;
+  color: #6BD425;
 }
 .p-button.p-button-success.p-button-text:enabled:active, .p-buttonset.p-button-success > .p-button.p-button-text:enabled:active, .p-splitbutton.p-button-success > .p-button.p-button-text:enabled:active {
-  background: rgba(197, 225, 165, 0.16);
+  background: #6BD42515;
   border-color: transparent;
-  color: #C5E1A5;
+  color: #6BD425;
 }
 
 .p-button.p-button-warning, .p-buttonset.p-button-warning > .p-button, .p-splitbutton.p-button-warning > .p-button {
@@ -4803,7 +4820,7 @@
   color: #ffffff;
 }
 .p-badge.p-badge-success {
-  background-color: #C5E1A5;
+  background-color: #6BD425;
   color: #121212;
 }
 .p-badge.p-badge-info {
@@ -4932,7 +4949,7 @@
   border-radius: 6px;
 }
 .p-tag.p-tag-success {
-  background-color: #C5E1A5;
+  background-color: #6BD425;
   color: #121212;
 }
 .p-tag.p-tag-info {

@@ -3,7 +3,7 @@
     <div class="grid px-3 flex-column">
         <ScrollPanel class="w-full mb-3 pt-3" style="height: 424px;">
             <div class="p-inputgroup mb-4">
-                <InputText placeholder="Add Task" :class="{ activated: newTask }" v-model="newTask" />
+                <InputText class="task-input" placeholder="Add Task" :class="{ activated: newTask }" v-model="newTask" />
                 <Button icon="pi pi-plus" class="p-button-success" :class="{ activated: newTask }" @click="addTask" />
             </div>
             <div v-if="pending.length > 0">
@@ -14,7 +14,7 @@
                         <input class="task-checkbox" :id="`task-${task.id}`" v-model="task.done" v-bind:value="!task.done" type="checkbox" />
                         <label class="cursor-pointer absolute" :for="`task-${task.id}`"></label>
                         <span class="task-title">{{ task.title }}</span>
-                        <span class="delete absolute h-full cursor-pointer white" @click="deleteTask(task)"></span>
+                        <span class="delete absolute h-full cursor-pointer" @click="deleteTask(task)"></span>
                     </li>
                 </transition-group>
             </div>
@@ -28,7 +28,7 @@
                         <input class="task-checkbox" :id="`task-${task.id}`" v-model="task.done" v-bind:value="!task.done" type="checkbox" checked />
                         <label class="cursor-pointer absolute" :for="`task-${task.id}`"></label>
                         <span class="task-title">{{ task.title }}</span>
-                        <span class="delete absolute h-full cursor-pointer white" @click="deleteTask(task)"></span>
+                        <span class="delete absolute h-full cursor-pointer" @click="deleteTask(task)"></span>
                     </li>
                 </transition-group>
             </div>
@@ -136,37 +136,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.p-button.p-button-success,
-.p-buttonset.p-button-success > .p-button,
-.p-splitbutton.p-button-success > .p-button {
-  background: grey;
-  border: 1px solid #2b3b4b;
-}
-
-.p-button.p-button-success:enabled:hover,
-.p-buttonset.p-button-success > .p-button:enabled:hover,
-.p-splitbutton.p-button-success > .p-button:enabled:hover {
-  color: #fff;
-  background: #212c3a !important;
-  border: 1px solid #212c3a !important;
-}
-
-.p-button.p-button-success.activated,
-.p-buttonset.p-button-success > .p-button.activated,
-.p-splitbutton.p-button-success > .p-button.activated {
-  color: #fff;
-  background: green;
-  border: 1px solid green;
-}
-
-.p-button.p-button-success.activated:enabled:hover,
-.p-buttonset.p-button-success > .p-button.activated:enabled:hover,
-.p-splitbutton.p-button-success > .p-button.activated:enabled:hover {
-  color: #fff;
-  background: #17a96c !important;
-  border: 1px solid #17a96c !important;
-}
-
 .p-button.p-button-text {
   color: #33CCFF !important;
   &:enabled:hover {
@@ -176,20 +145,30 @@ export default {
   }
 }
 
+.task-input {
+  background-color: #0c0d1c !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border: 1px solid #414469 !important;
+  border-right: none !important;
+}
+
 ul.tasks {
   li {
-      background: grey;
+      background: #2b2d46;
       list-style-type: none;
       margin: 10px 0;
       border-radius: 5px;
       padding: 12px 50px;
+      color: #acbacc;
       .delete {
           top: 50%;
           right: 0;
           transform: translateY(-50%);
           opacity: 0;
           width: 0;
-          background-color: #f56468;
+          background-color: #FC440F;
+          color: #fff;
           transition: all ease-in 0.25s;
           &:after {
               position: absolute;
@@ -198,7 +177,7 @@ ul.tasks {
               height: 20px;
               top: 50%;
               left: 50%;
-              background-image: url('/assets/layout/images/trashicon-white.svg');
+              background-image: url('/assets/img/icons/trashcan-white.svg');
               background-repeat: no-repeat;
               background-position: center;
               background-size: contain;
@@ -226,12 +205,12 @@ ul.tasks {
               width: 20px;
               height: 20px;
               border-radius: 2px;
-              border: 1px solid #008AB8;
+              border: 1px solid #00bfff;
               background-color: transparent;
           }
           &:checked {
               + label {
-                  background: #008AB8;
+                  background: #00bfff;
                   &:after {
                       display: block;
                       position: absolute;
@@ -247,7 +226,7 @@ ul.tasks {
                   }
               }
               ~ .task-title {
-                  color: #667081;
+                  color: #acbacc;
                   text-decoration: line-through;
               }
           }

@@ -1,5 +1,5 @@
 <template>
-    <ul>
+    <ul class="pt-3">
         <li
           v-for="announcement in announcements"
           :key="announcement.id"
@@ -96,16 +96,16 @@ export default {
           margin-bottom: 4px;
           font-weight: 600;
           font-size: 12px;
-          color: white;
+          color: #8597ae;
 
           &.event-title {
-            color: white;
+            color: #d1e1f6;
           }
 
           &.time {
             font-size: 10px;
             font-weight: 400;
-            color: white;
+            color: #8597ae;
           }
         }
       }
@@ -113,17 +113,17 @@ export default {
       &.blue {
         > i {
           // color: #297FFF;
-          color: #297fff;
+          color: #5465FF;
         }
       }
       &.green {
         > i {
-          color: #34b56f;
+          color: #6BD425;
         }
       }
       &.orange {
         > i {
-          color: #ffa928;
+          color: #FBB13C;
         }
       }
     }

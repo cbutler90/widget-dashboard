@@ -1,6 +1,6 @@
 <template>
   <WidgetContainer title="File Upload">
-    <div class="file-upload pt-2 pb-3 w-full">
+    <div class="file-upload py-2 w-full">
       <FileUpload
         name="files[]"
         url="./upload"

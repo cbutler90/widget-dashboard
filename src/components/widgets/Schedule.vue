@@ -11,7 +11,7 @@
     >
       <ScheduleCard />
     </ScrollPanel>
-    <a href="#" class="capri">View Full Schedule</a>
+    <a href="#" class="text-sm">View Full Schedule</a>
   </WidgetContainer>
 </template>
 

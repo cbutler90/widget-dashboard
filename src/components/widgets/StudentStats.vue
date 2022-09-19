@@ -6,10 +6,12 @@
           v-model="knobValue[0]"
           :step="10"
           :max="100"
+          valueColor="#00bfff"
+          rangeColor="#00bfff30"
           valueTemplate="{value}%"
           :readonly="true"
         />
-        <p class="text-center text-lg">Perfect Scores</p>
+        <p class="text-center text-lg rhythm">Perfect Scores</p>
       </div>
       <div class="col-6 flex flex-column align-items-center">
         <Knob
@@ -17,10 +19,11 @@
           :step="10"
           :max="100"
           valueTemplate="{value}%"
-          valueColor="#1abc78"
+          valueColor="#6BD425"
+          rangeColor="#6BD42530"
           :readonly="true"
         />
-        <p class="text-center text-lg">Consistency</p>
+        <p class="text-center text-lg rhythm">Consistency</p>
       </div>
       <div class="col-6 flex flex-column align-items-center">
         <Knob
@@ -29,9 +32,10 @@
           :max="100"
           valueTemplate="{value}%"
           :readonly="true"
-          valueColor="#f05437"
+          valueColor="#ED254E"
+          rangeColor="#ED254E30"
         />
-        <p class="text-center text-lg">Did Not Pass</p>
+        <p class="text-center text-lg rhythm">Did Not Pass</p>
       </div>
       <div class="col-6 flex flex-column align-items-center">
         <Knob
@@ -40,9 +44,10 @@
           :max="100"
           valueTemplate="{value}%"
           :readonly="true"
-          valueColor="#1abc78"
+          valueColor="#6BD425"
+          rangeColor="#6BD42530"
         />
-        <p class="text-center text-lg">Participation</p>
+        <p class="text-center text-lg rhythm">Participation</p>
       </div>
     </div>
   </WidgetContainer>

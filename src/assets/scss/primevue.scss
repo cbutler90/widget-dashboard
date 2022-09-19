@@ -571,8 +571,8 @@
   border-color: $capri;
 }
 .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
-  border-color: #8A9D16;
-  background: #8A9D16;
+  border-color: $blue-ncs;
+  background: $blue-ncs;
   color: $platinum;
 }
 .p-checkbox.p-invalid > .p-checkbox-box {
@@ -589,7 +589,7 @@
   background-color: #545B67;
 }
 .p-input-filled .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
-  background: #8A9D16;
+  background: $blue-ncs;
 }
 
 .p-highlight .p-checkbox .p-checkbox-box {
@@ -1336,8 +1336,8 @@
   background: $capri;
 }
 .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
-  border-color: #8A9D16;
-  background: #8A9D16;
+  border-color: $blue-ncs;
+  background: $blue-ncs;
   color: $platinum;
 }
 .p-radiobutton.p-invalid > .p-radiobutton-box {
@@ -1357,7 +1357,7 @@
   background: $capri;
 }
 .p-input-filled .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
-  background: #8A9D16;
+  background: $blue-ncs;
 }
 
 .p-highlight .p-radiobutton .p-radiobutton-box {
@@ -1602,9 +1602,9 @@
   border-color: $blue-ncs;
 }
 .p-button:enabled:active {
-  background: #8A9D16;
+  background: $blue-ncs;
   color: $platinum;
-  border-color: #8A9D16;
+  border-color: $blue-ncs;
 }
 .p-button.p-button-outlined {
   background-color: transparent;
@@ -2533,9 +2533,9 @@
   border-color: $blue-ncs;
 }
 .fc .fc-toolbar .fc-button:enabled:active {
-  background: #8A9D16;
+  background: $blue-ncs;
   color: $platinum;
-  border-color: #8A9D16;
+  border-color: $blue-ncs;
 }
 .fc .fc-toolbar .fc-button:enabled:active:focus {
   outline: 0 none;
@@ -3645,9 +3645,9 @@
   border-color: $blue-ncs;
 }
 .p-fileupload-choose:not(.p-disabled):active {
-  background: #8A9D16;
+  background: $blue-ncs;
   color: $platinum;
-  border-color: #8A9D16;
+  border-color: $blue-ncs;
 }
 
 .p-breadcrumb {
@@ -4884,7 +4884,7 @@
 .p-progressbar {
   border: 0 none;
   height: 1rem;
-  background: #545B67;
+  background: #4a4e78;
   border-radius: 6px;
 }
 .p-progressbar .p-progressbar-value {

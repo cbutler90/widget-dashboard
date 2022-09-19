@@ -3,7 +3,7 @@
       <ScrollPanel class="w-full discussion py-3 mb-2" style="height: 346px">
         <DiscussionCard />
       </ScrollPanel>
-      <a href="#" class="capri">View All Discussions</a>
+      <a href="#" class="text-sm">View All Discussions</a>
     </WidgetContainer>
 </template>
 

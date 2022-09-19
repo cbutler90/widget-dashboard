@@ -36,7 +36,7 @@ h6 {
 p,
 ol,
 ul {
-  color: #a4a5b3;
+  color: $rhythm;
   font-family: 'OpenSans Regular', sans-serif;
   letter-spacing: 0.5px;
 }
@@ -53,9 +53,11 @@ span {
 }
 
 a {
+  color: $sky-blue;
+  text-decoration: none;
   &:hover,
   &:focus {
-    // color: $pacific-blue;
+    color: $blue-ncs;
     transition: color 200ms linear;
   }
   // &.shadow-blue {
@@ -84,6 +86,10 @@ a {
 // 2.0 - Colors
 .raisin-black-bg {
   background-color: $raisin-black;
+}
+
+.rhythm {
+  color: $rhythm;
 }
 
 .shadow-blue {

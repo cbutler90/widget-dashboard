@@ -55,7 +55,7 @@
           </div>
           <div class="flex flex-row">
             <div class="col-5">
-              <Messages class="mx-2 my-3" />
+              <TaskList class="mx-2 my-3" />
             </div>
             <div class="col-7">
               <Messages class="mx-2 my-3" />
@@ -94,6 +94,7 @@ import Messages from '@/components/widgets/Messages.vue';
 import QuickStat from '@/components/widgets/QuickStat.vue';
 import Schedule from '@/components/widgets/Schedule.vue';
 import StudentStats from '@/components/widgets/StudentStats.vue';
+import TaskList from '@/components/widgets/TaskList.vue';
 
 export default {
   components: {
@@ -107,6 +108,7 @@ export default {
     QuickStat,
     Schedule,
     StudentStats,
+    TaskList
   },
 };
 </script>

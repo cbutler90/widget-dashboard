@@ -1,7 +1,5 @@
 <template>
-  <div class="grid px-3 annoucements">
-    <ScrollPanel class="w-full mb-3 pt-3" style="height: 356px">
-      <ul>
+    <ul>
         <li
           v-for="announcement in announcements"
           :key="announcement.id"
@@ -17,9 +15,6 @@
           </div>
         </li>
       </ul>
-    </ScrollPanel>
-    <a href="#">View All Announcements</a>
-  </div>
 </template>
 
 <script>
@@ -76,7 +71,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.annoucements {
+  .annoucements {
   padding-right: 4px;
   ul {
     padding: 0;

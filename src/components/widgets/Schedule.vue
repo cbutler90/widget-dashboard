@@ -21,7 +21,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import ScheduleCard from './ScheduleCard.vue';
-import WidgetContainer from '@/components/WidgetContainer.vue';
+import WidgetContainer from '../WidgetContainer.vue';
 
 export default {
   components: {

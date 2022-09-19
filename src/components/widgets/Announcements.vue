@@ -1,15 +1,17 @@
 <template>
   <WidgetContainer title="Announcements">
-    <ScrollPanel class="w-full mb-3 pt-3" style="height: 382px">
-      <AnnouncementCard />
-    </ScrollPanel>
-    <a href="#">View All Announcements</a>
+    <div class="grid pl-3 annoucements">
+      <ScrollPanel class="w-full mb-3 pt-3" style="height: 382px">
+        <AnnouncementCard />
+      </ScrollPanel>
+      <a href="#" class="capri">View All Announcements</a>
+    </div>
   </WidgetContainer>
 </template>
 
 <script>
-import AnnouncementCard from '@/components/widgets/AnnouncementCard.vue';
-import WidgetContainer from '@/components/WidgetContainer.vue';
+import AnnouncementCard from './AnnouncementCard.vue';
+import WidgetContainer from '../WidgetContainer.vue';
 
 export default {
   components: {

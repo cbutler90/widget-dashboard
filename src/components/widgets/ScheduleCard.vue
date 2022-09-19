@@ -3,7 +3,7 @@
           figure out filter on events data (start,end)
   -->
   <ul>
-      <li v-for="event in filteredEvents" :key="event.id" class="border-l-5" :class="statusChecker(event)">
+      <li v-for="event in filteredEvents" :key="event.id" :class="statusChecker(event)">
           <div class="schedule-header">
               <h6 class="text-lg letter-s-normal">{{ event.title }}</h6>
           </div>

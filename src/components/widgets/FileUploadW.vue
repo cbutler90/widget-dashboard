@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import WidgetContainer from '@/components/WidgetContainer.vue';
+import WidgetContainer from '../WidgetContainer.vue';
 
 export default {
   components: {

@@ -1,8 +1,8 @@
 <template>
   <WidgetContainer title="Task List">
-    <div class="grid px-3 flex-column">
-        <ScrollPanel class="w-full mb-3 pt-3" style="height: 424px;">
-            <div class="p-inputgroup mb-4">
+    <div class="grid ml-0 flex-column">
+        <ScrollPanel class="w-full mb-3" style="height: 424px;">
+            <div class="p-inputgroup mt-3 mb-4">
                 <InputText class="task-input" placeholder="Add Task" :class="{ activated: newTask }" v-model="newTask" />
                 <Button icon="pi pi-plus" class="p-button-success" :class="{ activated: newTask }" @click="addTask" />
             </div>
@@ -19,7 +19,7 @@
                 </transition-group>
             </div>
             <transition name="slide-fade">
-                <h6 v-if="!pending.length">You have no pending tasks</h6>
+                <h6 class="text-base font-normal rhythm" v-if="!pending.length">You have no pending tasks</h6>
             </transition>
             <div v-if="completed.length > 0 && showComplete">
                 <p class="pt-3">Completed Tasks: {{ completedPercentage }}</p>
@@ -177,7 +177,7 @@ ul.tasks {
               height: 20px;
               top: 50%;
               left: 50%;
-              background-image: url('/assets/img/icons/trashcan-white.svg');
+              background-image: url('/src/assets/img/icons/trashcan-white.svg');
               background-repeat: no-repeat;
               background-position: center;
               background-size: contain;

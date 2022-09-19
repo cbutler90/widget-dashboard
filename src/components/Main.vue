@@ -47,8 +47,8 @@
           </div>
           <div class="flex flex-row">
             <div class="col-5 p-0">
-              <Discussion class="mx-2 my-3" />
               <TaskList class="mx-2 my-3" />
+              <Discussion class="mx-2 my-3" />
             </div>
             <div class="col-7 p-0">
               <FileUploadW class="mx-2 my-3" />

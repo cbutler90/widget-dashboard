@@ -61,7 +61,7 @@
               </ScrollPanel>
             </div>
             <div class="chat-input">
-              <InputText type="text" placeholder="Write here..." />
+              <InputText class="gainsboro" type="text" placeholder="Write here..." />
             </div>
           </div>
         </TabPanel>
@@ -189,7 +189,7 @@
               </ScrollPanel>
             </div>
             <div class="chat-input">
-              <InputText type="text" placeholder="Search new person" />
+              <InputText class="gainsboro" type="text" placeholder="Search new person" />
             </div>
           </div>
         </TabPanel>

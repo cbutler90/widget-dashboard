@@ -3379,7 +3379,7 @@
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
   transition: box-shadow 0.2s;
-  margin: 0 0 -2px 0;
+  // margin: 0 0 -2px 0;
 }
 .p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
   outline: 0 none;
@@ -3387,12 +3387,13 @@
   box-shadow: 0 0 0 1px #70DBFF;
 }
 .p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
-  background: #293241;
+  color: $capri;
+  font-weight: 600;
   border-color: $capri;
-  color: $platinum;
+  background: #383b5b;
 }
 .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
-  background: #293241;
+  background: #373a5b;
   border-color: $capri;
   color: $capri;
 }
@@ -4376,7 +4377,7 @@
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
   transition: box-shadow 0.2s;
-  margin: 0 0 -2px 0;
+  // margin: 0 0 -2px 0;
 }
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link .p-menuitem-icon {
   margin-right: 0.5rem;

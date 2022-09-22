@@ -10,7 +10,7 @@
           <div class="flex flex-row">
             <div class="col-3 p-0">
               <QuickStat
-                class="m-2"
+                class="mx-2 mt-2"
                 cardClass="marigold-border"
                 statCategory="Students Online"
                 statNumber="24"
@@ -19,7 +19,7 @@
             </div>
             <div class="col-3 p-0">
               <QuickStat
-                class="m-2"
+                class="mx-2 mt-2"
                 cardClass="lime-green-border"
                 statCategory="Active Courses"
                 statNumber="8"
@@ -28,7 +28,7 @@
             </div>
             <div class="col-3 p-0">
               <QuickStat
-                class="m-2"
+                class="mx-2 mt-2"
                 cardClass="neon-blue-border"
                 statCategory="Courses"
                 statNumber="112"
@@ -37,7 +37,7 @@
             </div>
             <div class="col-3 p-0">
               <QuickStat
-                class="m-2"
+                class="mx-2 mt-2"
                 cardClass="orchid-border"
                 statCategory="Completed Courses"
                 statNumber="47"
@@ -48,11 +48,11 @@
           <div class="flex flex-row">
             <div class="col-5 p-0">
               <TaskList class="mx-2 my-3" />
-              <Discussion class="mx-2 my-3" />
+              <Messages class="mx-2 my-3" />
             </div>
             <div class="col-7 p-0">
               <FileUploadW class="mx-2 my-3" />
-              <Messages class="mx-2 my-3" />
+              <Discussion class="mx-2 my-3" />
             </div>
           </div>
           <!-- <div class="flex flex-row">

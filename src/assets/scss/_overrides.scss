@@ -240,19 +240,284 @@
 // 4.5 - ScrollPanel
 .p-scrollpanel {
   .p-scrollpanel-content {
-      padding: 0;
-      padding-right: 1rem;
+    padding: 0;
+    padding-right: 1rem;
   }
   .p-scrollpanel-bar {
-      margin-left: 1em !important;
-      background: $space-cadet-3;
+    margin-left: 1em !important;
+    background: $space-cadet-3;
   }
   &:hover,
   &:active {
-      .p-scrollpanel-bar {
-          margin-left: 1em !important;
-      }
+    .p-scrollpanel-bar {
+      margin-left: 1em !important;
+    }
   }
+}
+
+// 4.6 - TabView & TabPanel
+// messaging widget
+.chat .p-tabview {
+  .p-tabview-nav-container {
+    margin: 0 0 -2px 0;
+  }
+  .p-tabview-nav {
+    background-color: transparent;
+    border: none;
+    margin: 0 -4px;
+    &:before {
+      display: none;
+    }
+    li {
+      padding: 9px 0 0;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-color: transparent;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+      margin: 0 10px;
+      border: none;
+      &:hover {
+        border: none;
+        padding: 0 0 9px;
+      }
+      &.p-highlight {
+        padding: 0 0 9px;
+        border: none;
+        a {
+          box-shadow: 0px 0px 1px rgba(41, 50, 65, 0.16),
+            0px 1px 2px rgba(41, 50, 65, 0.04),
+            0px 6px 12px rgba(41, 50, 65, 0.24);
+          border: 0 none;
+          padding-left: 0;
+          padding-right: 0;
+          &:before {
+            width: 12px;
+            height: 2px;
+            background: $capri;
+            border-radius: 3px;
+            position: absolute;
+            bottom: -10px;
+          }
+        }
+        img {
+          width: 48px;
+        }
+      }
+      a {
+        position: relative;
+        width: 52px;
+        height: 52px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        cursor: pointer;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        color: $capri;
+        border: 0 none;
+        overflow: visible;
+        background-color: $space-cadet-3;
+        border-radius: 50%;
+        img {
+          -moz-border-radius: 20px;
+          -webkit-border-radius: 20px;
+          border-radius: 20px;
+        }
+        .p-badge {
+          position: absolute;
+          bottom: -5px;
+          right: -5px;
+          top: 60%;
+          line-height: 1.25rem;
+          min-width: 1.25rem;
+          height: 1.25rem;
+          border-radius: 50%;
+          padding: 0;
+        }
+      }
+      // img {
+      //   width: 42px;
+      // }
+    }
+  }
+  .p-tabview-panels {
+    background-color: transparent;
+    border: none;
+    padding: 16px 0 0;
+    .p-tabview-panel {
+      padding: 0;
+      height: 350px;
+      .chat {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        height: 350px;
+        margin-top: 0.5rem;
+        .fade {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 200px;
+          background-image: linear-gradient(180deg, #282942 0%, rgba(234, 237, 243, 0) 100%);
+        }
+        .chat-content {
+          background: #181927;
+          border-radius: 5px;
+          max-height: 400px;
+          overflow: auto;
+          padding: 30px 6px 12px;
+          flex: 1 1 auto;
+          .p-scrollpanel-wrapper {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+          }
+          .chat-message {
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            .name {
+              display: block;
+              color: #bfc2c6;
+              font-weight: 600;
+              font-size: 10px;
+              line-height: 14px;
+            }
+            .message {
+              max-width: 250px;
+              padding: 8px 10px;
+              box-shadow: 0px 0px 1px rgba(41, 50, 65, 0.5),
+                0px 1px 1px rgba(41, 50, 65, 0.2);
+              -moz-border-radius: 12px;
+              -webkit-border-radius: 12px;
+              border-radius: 12px;
+              margin-bottom: 8px;
+              background-color: $space-cadet-3;
+              p {
+                padding: 0;
+                margin: 0 0 2px;
+                color: #b5b7cf;
+              }
+              span {
+                display: block;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 14px;
+                color: $rhythm;
+              }
+            }
+            &.send {
+              -ms-flex-align: end;
+              align-items: flex-end;
+              .message {
+                span {
+                  text-align: right;
+                }
+              }
+            }
+          }
+          &.no-message {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+          }
+        }
+        .chat-input {
+          margin-top: 1rem;
+          input {
+            width: 100%;
+            border-radius: 5px;
+            background-color: #181927;
+            color: $gainsboro;
+            border: none;
+            &::placeholder {
+              color: $rhythm;
+            }
+          }
+        }
+        .contacts {
+          flex: 1 1 auto;
+          max-height: 400px;
+          overflow: auto;
+          padding: 0px 0 12px;
+          ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            > li {
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-align: center;
+              align-items: center;
+              margin-bottom: 6px;
+              -moz-transition: all 0.2s;
+              -o-transition: all 0.2s;
+              -webkit-transition: all 0.2s;
+              transition: all 0.2s;
+              cursor: pointer;
+              padding: 8px 10px;
+              -moz-border-radius: 12px;
+              -webkit-border-radius: 12px;
+              border-radius: 12px;
+              img {
+                margin-right: 12px;
+                border-radius: 50%;
+                width: 42px;
+                height: 42px;
+              }
+              h6 {
+                margin: 0 0 2px;
+                color: #eaebec;
+              }
+              span {
+                display: block;
+                color: #bfc2c6;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 14px;
+              }
+              &:hover {
+                background-color: #303a48;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.chat .p-tabview .p-tabview-nav li.p-highlight a:before {
+  content: '';
+  width: 24px;
+  height: 3px;
+  background: $capri;
+  border-radius: 3px;
+  position: absolute;
+  bottom: -9px;
 }
 
 // 6.0 - Scrollbars

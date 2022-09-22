@@ -122,7 +122,7 @@
           </template>
           <div class="chat">
             <span class="fade"></span>
-            <div class="contacts overflow-hidden pt-0 pl-4 pr-3">
+            <div class="contacts overflow-hidden pt-0 px-3">
               <ScrollPanel class="w-full" style="height: 300px">
                 <ul>
                   <li>
@@ -131,8 +131,8 @@
                       alt="user"
                     />
                     <div class="contact-info">
-                      <h6>Theo Jefferson</h6>
-                      <span>Active</span>
+                      <h6 class="text-base gainsboro">Theo Jefferson</h6>
+                      <Chip label="Active" icon="pi pi-circle-fill text-xxs mr-1 lime-green" class="lime-green mr-1 text-xs mt-2" />
                     </div>
                   </li>
                   <li>
@@ -141,8 +141,8 @@
                       alt="user"
                     />
                     <div class="contact-info">
-                      <h6>James Ramos</h6>
-                      <span>Active</span>
+                      <h6 class="text-base gainsboro">James Ramos</h6>
+                      <Chip label="Active" icon="pi pi-circle-fill text-xxs mr-1 lime-green" class="lime-green mr-1 text-xs mt-2" />
                     </div>
                   </li>
                   <li>
@@ -151,8 +151,8 @@
                       alt="user"
                     />
                     <div class="contact-info">
-                      <h6>Aaron Tanner</h6>
-                      <span>Active</span>
+                      <h6 class="text-base gainsboro">Aaron Tanner</h6>
+                      <Chip label="Active" icon="pi pi-circle-fill text-xxs mr-1 lime-green" class="lime-green mr-1 text-xs mt-2" />
                     </div>
                   </li>
                   <li>
@@ -161,8 +161,8 @@
                       alt="user"
                     />
                     <div class="contact-info">
-                      <h6>Rachel King</h6>
-                      <span>Active</span>
+                      <h6 class="text-base gainsboro">Rachel King</h6>
+                      <Chip label="Active" icon="pi pi-circle-fill text-xxs mr-1 lime-green" class="lime-green mr-1 text-xs mt-2" />
                     </div>
                   </li>
                   <li>
@@ -171,8 +171,8 @@
                       alt="user"
                     />
                     <div class="contact-info">
-                      <h6>Michelle Gilbert</h6>
-                      <span>Active</span>
+                      <h6 class="text-base gainsboro">Michelle Gilbert</h6>
+                      <Chip label="Active" icon="pi pi-circle-fill text-xxs mr-1 lime-green" class="lime-green mr-1 text-xs mt-2" />
                     </div>
                   </li>
                   <li>
@@ -181,8 +181,8 @@
                       alt="user"
                     />
                     <div class="contact-info">
-                      <h6>Linda Holt</h6>
-                      <span>Active</span>
+                      <h6 class="text-base gainsboro">Linda Holt</h6>
+                      <Chip label="Active" icon="pi pi-circle-fill text-xxs mr-1 lime-green" class="lime-green mr-1 text-xs mt-2" />
                     </div>
                   </li>
                 </ul>
@@ -209,4 +209,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .p-chip.lime-green {
+    background: #2c402e;
+  }
 </style>

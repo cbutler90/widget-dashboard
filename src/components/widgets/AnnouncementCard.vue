@@ -7,7 +7,7 @@
         >
           <i class="pi pi-circle-on"></i>
           <div class="event-content">
-            <span class="event-title heather">{{ announcement.title }}</span>
+            <span class="event-title">{{ announcement.title }}</span>
             <span class="font-normal text-sm">{{
               announcement.description
             }}</span>

@@ -5,7 +5,7 @@
   <ul>
       <li v-for="event in filteredEvents" :key="event.id" :class="statusChecker(event)">
           <div class="schedule-header">
-              <h6 class="text-lg letter-s-normal">{{ event.title }}</h6>
+              <h6 class="text-lg">{{ event.title }}</h6>
           </div>
           <div class="schedule-content flex justify-content-between align-items-center">
               <div class="flex flex-column">

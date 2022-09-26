@@ -49,10 +49,13 @@
             <div class="col-5 p-0">
               <TaskList class="mx-2 my-3" />
               <Messages class="mx-2 my-3" />
+              <Discussion class="mx-2 my-3" />
             </div>
             <div class="col-7 p-0">
               <FileUploadW class="mx-2 my-3" />
-              <Discussion class="mx-2 my-3" />
+              <Chart1 class="mx-2 mb-3" />
+              <Chart2 class="mx-2 mb-3" />
+              <Chart3 class="mx-2 mb-3" />
             </div>
           </div>
           <!-- <div class="flex flex-row">
@@ -70,7 +73,7 @@
           <Announcements class="mx-2 my-3" />
         </div>
       </div>
-      <div class="flex flex-row">
+      <!-- <div class="flex flex-row">
         <div class="col-4 p-0">
           <Chart1 class="mx-2 mb-3" />
         </div>
@@ -80,7 +83,7 @@
         <div class="col-4 p-0">
           <Chart3 class="mx-2 mb-3" />
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

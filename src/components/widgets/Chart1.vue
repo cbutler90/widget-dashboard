@@ -63,7 +63,7 @@ export default {
     getChart1() {
       const borderColor =
         getComputedStyle(document.body).getPropertyValue('--primary-color') ||
-        '#2c84d8';
+        '#00bfff';
       const backgroundColor =
         getComputedStyle(document.body).getPropertyValue(
           '--primary-lighter-color'

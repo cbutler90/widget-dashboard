@@ -62,12 +62,12 @@ export default {
     },
     getChart3() {
       const borderColor =
-        getComputedStyle(document.body).getPropertyValue('--primary-color') ||
-        '#2c84d8';
+        getComputedStyle(document.body).getPropertyValue('#FDE74C') ||
+        '#FDE74C';
       const backgroundColor =
         getComputedStyle(document.body).getPropertyValue(
-          '--primary-lighter-color'
-        ) || '#2c84d8';
+          '#FDE74C25'
+        ) || '#FDE74C25';
       return {
         labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL'],
         datasets: [

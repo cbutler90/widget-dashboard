@@ -22,17 +22,44 @@
 export default {
   data() {
       return {
-          events: [
+        events: [
             {
               id: 1,
-              title: 'test',
+              title: 'All Day Event',
               cta: 'Join Session',
+              start: '2022-09-27',
               numOfParticipants: 4,
-              start: '2022-09-09T16:00:00',
-              end: '2022-09-10T16:00:00',
               begin: '12:00',
               close: '16:00',
-            }
+            },
+            {
+              id: 2,
+              title: 'Long Event',
+              cta: 'Join Session',
+              start: '2022-09-27',
+              end: '2022-09-28',
+              numOfParticipants: 12,
+              begin: '12:00',
+              close: '16:00',
+            },
+            {
+              id: 3,
+              title: 'Repeating Event',
+              cta: 'Join Session',
+              start: '2022-09-09T16:00:00',
+              numOfParticipants: 11,
+              begin: '12:00',
+              close: '16:00',
+            },
+            {
+              id: 4,
+              title: 'Repeating Event',
+              cta: 'Join Session',
+              start: '2022-09-16T16:00:00',
+              numOfParticipants: 11,
+              begin: '12:00',
+              close: '16:00',
+            },
           ],
       };
   },

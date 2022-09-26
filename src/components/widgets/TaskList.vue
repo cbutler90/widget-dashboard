@@ -2,7 +2,7 @@
   <WidgetContainer title="Task List">
     <div class="grid ml-0 flex-column">
         <ScrollPanel class="w-full mb-3" style="height: 424px;">
-            <div class="p-inputgroup mt-3 mb-4">
+            <div class="p-inputgroup mt-3 mb-4" @keyup.enter="addTask" >
                 <InputText class="task-input" placeholder="Add Task" :class="{ activated: newTask }" v-model="newTask" />
                 <Button icon="pi pi-plus" class="p-button-success" :class="{ activated: newTask }" @click="addTask" />
             </div>

@@ -5,7 +5,7 @@
           add dropdown notifications
           change color on badge
   -->
-  <header class="flex flex-row align-items-center p-3 raisin-black-bg" style="height: 64px">
+  <header class="flex flex-row align-items-center p-3 raisin-black-bg fixed z-4" style="height: 64px;">
     <div class="topnav-wrapper w-full flex justify-content-between align-items-center">
       <span class="p-input-icon-left w-full flex flex-row align-items-center pl-3">
         <i class="pi pi-search pl-3" />
@@ -38,4 +38,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+  header {
+    width: calc(100% - 117px);
+  }
+</style>

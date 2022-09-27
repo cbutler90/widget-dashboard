@@ -7,6 +7,7 @@ import TopNav from '@/components/TopNav.vue'
 </script>
 
 <template>
+  <!-- @TODO: responsiveness -->
   <div class="flex flex-row">
     <SideNav class="w-auto" />
     <div class="flex flex-column w-full" style="margin-left: 117px;">

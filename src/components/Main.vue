@@ -56,6 +56,7 @@
               <Chart1 class="mx-2 mb-3" />
               <Chart2 class="mx-2 mb-3" />
               <Chart3 class="mx-2 mb-3" />
+              <Attendance class="mx-2 mb-3" />
             </div>
           </div>
           <!-- <div class="flex flex-row">
@@ -90,6 +91,7 @@
 
 <script>
 import Announcements from '@/components/widgets/Announcements.vue';
+import Attendance from '@/components/widgets/Attendance.vue';
 import Chart1 from '@/components/widgets/Chart1.vue';
 import Chart2 from '@/components/widgets/Chart2.vue';
 import Chart3 from '@/components/widgets/Chart3.vue';
@@ -104,6 +106,7 @@ import TaskList from '@/components/widgets/TaskList.vue';
 export default {
   components: {
     Announcements,
+    Attendance,
     Chart1,
     Chart2,
     Chart3,

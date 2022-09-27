@@ -132,6 +132,7 @@ export default {
 <style lang="scss">
   .discussion-card {
     background-color: #2b2d46;
+    border-left: 5px solid #613DC1;
     .participants, .comments {
       color: #8597ae9e;
     }

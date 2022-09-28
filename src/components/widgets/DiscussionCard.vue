@@ -34,7 +34,8 @@
               {{ discussion.numOfComments }} comments</span
             >
           </div>
-          <AvatarGroup v-if="discussion.numOfParticipants">
+          <!-- server isn't recognizing this, looking for src, will have to rebuild as our own -->
+          <!-- <AvatarGroup v-if="discussion.numOfParticipants">
             <Avatar
               image="/src/assets/img/avatars/guy1.png"
               shape="circle"
@@ -60,7 +61,7 @@
               shape="circle"
               style="height: 2.25rem; width: 2.25rem; background: #3d4067;"
             />
-          </AvatarGroup>
+          </AvatarGroup> -->
         </div>
       </div>
     </li>

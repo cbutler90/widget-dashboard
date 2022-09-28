@@ -1,6 +1,6 @@
 <template>
   <WidgetContainer title="Attendance This Month">
-    <Chart type="doughnut" :data="chartData" :options="darkOptions" style="margin: 1rem 0rem; aspect-ratio: 1.25" />
+    <Chart type="doughnut" :data="chartData" :options="darkOptions" style="margin: 1rem 0rem; aspect-ratio: 2" />
   </WidgetContainer>
 </template>
 

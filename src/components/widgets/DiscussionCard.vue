@@ -36,22 +36,22 @@
           </div>
           <AvatarGroup v-if="discussion.numOfParticipants">
             <Avatar
-              image="@/assets/img/avatars/guy1.png"
+              image="/assets/img/avatars/guy1.png"
               shape="circle"
               style="height: 2.25rem; width: 2.25rem"
             />
             <Avatar
-              image="@/assets/img/avatars/girl1.png"
+              image="/assets/img/avatars/girl1.png"
               shape="circle"
               style="height: 2.25rem; width: 2.25rem"
             />
             <Avatar
-              image="@/assets/img/avatars/girl2.png"
+              image="/assets/img/avatars/girl2.png"
               shape="circle"
               style="height: 2.25rem; width: 2.25rem"
             />
             <Avatar
-              image="@/assets/img/avatars/girl3.png"
+              image="/assets/img/avatars/girl3.png"
               shape="circle"
               style="height: 2.25rem; width: 2.25rem"
             />

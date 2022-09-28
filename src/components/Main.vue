@@ -5,39 +5,39 @@
   -->
   <div class="main-wrapper">
     <div class="p-3">
-      <div class="flex flex-row">
-        <div class="col-8 p-0">
-          <div class="flex flex-row">
-            <div class="col-3 p-0">
+      <div class="flex flex-column xl-2:flex-row">
+        <div class="col-12 xl-2:col-8 p-0">
+          <div class="flex flex-wrap lg:flex-row">
+            <div class="col-12 md:col-6 lg:col-3 p-0">
               <QuickStat
-                class="mx-2 mt-2"
+                class="mx-2 my-2 lg:mt-2"
                 cardClass="marigold-border"
                 statCategory="Students Online"
                 statNumber="24"
                 iconClass="pi-users marigold"
               />
             </div>
-            <div class="col-3 p-0">
+            <div class="col-12 md:col-6 lg:col-3 p-0">
               <QuickStat
-                class="mx-2 mt-2"
+                class="mx-2 my-2 lg:mt-2"
                 cardClass="lime-green-border"
                 statCategory="Active Courses"
                 statNumber="8"
                 iconClass="pi-th-large lime-green"
               />
             </div>
-            <div class="col-3 p-0">
+            <div class="col-12 md:col-6 lg:col-3 p-0">
               <QuickStat
-                class="mx-2 mt-2"
+                class="mx-2 my-2 lg:mt-2"
                 cardClass="neon-blue-border"
                 statCategory="Courses"
                 statNumber="112"
                 iconClass="pi-book neon-blue"
               />
             </div>
-            <div class="col-3 p-0">
+            <div class="col-12 md:col-6 lg:col-3 p-0">
               <QuickStat
-                class="mx-2 mt-2"
+                class="mx-2 my-2 lg:mt-2"
                 cardClass="orchid-border"
                 statCategory="Completed Courses"
                 statNumber="47"
@@ -45,14 +45,14 @@
               />
             </div>
           </div>
-          <div class="flex flex-row">
-            <div class="col-5 p-0">
-              <TaskList class="mx-2 my-3" />
+          <div class="flex flex-wrap lg:flex-row">
+            <div class="col-12 md:col-5 p-0">
+              <TaskList class="mx-2 mb-3 mt-2" />
               <Messages class="mx-2 my-3" />
               <Discussion class="mx-2 my-3" />
             </div>
-            <div class="col-7 p-0">
-              <FileUploadW class="mx-2 my-3" />
+            <div class="col-12 md:col-7 p-0">
+              <FileUploadW class="mx-2 mb-3 mt-2" />
               <Chart1 class="mx-2 mb-3" />
               <Chart2 class="mx-2 mb-3" />
               <Chart3 class="mx-2 mb-3" />
@@ -68,7 +68,7 @@
             </div>
           </div> -->
         </div>
-        <div class="col-4 p-0">
+        <div class="col-12 xl-2:col-4 p-0">
           <Schedule class="m-2" />
           <StudentStats class="mx-2 my-3" />
           <Announcements class="mx-2 my-3" />

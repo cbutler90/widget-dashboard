@@ -38,8 +38,16 @@
 export default {};
 </script>
 
-<style>
+<style lang="scss" scoped>
   header {
     width: calc(100% - 117px);
+    .nav-icon {
+      .casper {
+        &:hover, &:focus {
+          color: #d9d9d9;
+          transition: color 200ms linear;
+        }
+      }
+    }
   }
 </style>

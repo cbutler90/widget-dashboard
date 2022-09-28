@@ -8,6 +8,9 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "express":"*",
+    "body-parser":"*",
+    "bcrypt": "^0.8.5",
     "@fullcalendar/core": "5.11.2",
     "@fullcalendar/daygrid": "5.11.2",
     "@fullcalendar/interaction": "5.11.2",

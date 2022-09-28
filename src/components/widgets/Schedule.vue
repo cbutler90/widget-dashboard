@@ -5,12 +5,12 @@
         <FullCalendar :events="events" :options="options" />
       </div>
     </div>
-    <ScrollPanel
+    <!-- <ScrollPanel
       class="w-full schedule"
       style="max-height: 185px; min-height: 94px"
     >
       <ScheduleCard />
-    </ScrollPanel>
+    </ScrollPanel> -->
     <a href="#" class="text-sm">View Full Schedule</a>
   </WidgetContainer>
 </template>

@@ -55,13 +55,13 @@ export default {
               id: 4,
               title: 'Repeating Event',
               cta: 'Join Session',
-              start: '2022-09-16T16:00:00',
+              start: '2022-12-16T16:00:00',
               numOfParticipants: 11,
               begin: '12:00',
               close: '16:00',
             },
           ],
-      };
+      }
   },
   methods: {
       statusChecker(event) {

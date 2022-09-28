@@ -20,9 +20,10 @@ export default {
             data: [11, 1, 3],
             backgroundColor: ['#FF47DA', '#03B5AA', '#FBB13C'],
             hoverBackgroundColor: ['#FF47DA', '#03B5AA', '#FBB13C'],
-            borderColor: ['#FF47DA', '#03B5AA', '#FBB13C'],
+            borderColor: ['#8F0072', '#02645E', '#A06403'],
+            borderWidth: 5,
             hoverBorderColor: ['#8F0072', '#02645E', '#A06403'],
-            hoverBorderWidth: 5
+            hoverBorderWidth: 8
           },
         ],
       },

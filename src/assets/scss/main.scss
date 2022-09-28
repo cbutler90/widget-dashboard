@@ -153,7 +153,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: local('Dotted'),
-    url('/assets/fonts/dotted/Dotted.ttf') format('truetype');
+    url('@/assets/fonts/dotted/Dotted.ttf') format('truetype');
 }
 
 @font-face {
@@ -161,7 +161,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: local('Lato Regular'),
-    url('/assets/fonts/lato/Lato-Regular.ttf') format('truetype');
+    url('@/assets/fonts/lato/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -169,7 +169,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: local('Lato Light'),
-    url('/assets/fonts/lato/Lato-Light.ttf') format('truetype');
+    url('@/assets/fonts/lato/Lato-Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -177,7 +177,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: local('Lato Thin'),
-    url('/assets/fonts/lato/Lato-Thin.ttf') format('truetype');
+    url('@/assets/fonts/lato/Lato-Thin.ttf') format('truetype');
 }
 
 @font-face {
@@ -185,7 +185,7 @@ a {
   font-style: normal;
   font-weight: 500;
   src: local('Roboto Medium'),
-    url('/assets/fonts/roboto/Roboto-Medium.ttf') format('truetype');
+    url('@/assets/fonts/roboto/Roboto-Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -193,7 +193,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: local('Roboto Regular'),
-    url('/assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    url('@/assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -201,7 +201,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: local('Roboto Light'),
-    url('/assets/fonts/roboto/Roboto-Light.ttf') format('truetype');
+    url('@/assets/fonts/roboto/Roboto-Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -209,7 +209,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: local('OpenSans Regular'),
-    url('/assets/fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+    url('@/assets/fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -217,7 +217,7 @@ a {
   font-style: normal;
   font-weight: normal;
   src: local('SourceSansPro Regular'),
-    url('/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf')
+    url('@/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf')
       format('truetype');
 }
 

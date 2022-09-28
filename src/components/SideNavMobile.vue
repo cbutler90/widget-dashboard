@@ -4,42 +4,30 @@
           fix color for active nav
           add marker to active nav
   -->
-  <div class="sidenav-wrapper fixed z-5 h-screen hidden lg:flex" style="width: 117px">
-    <div
-      class="logo-wrapper fixed flex justify-content-center align-items-center"
-      style="height: 64px; background-color: #2b2d46"
-    >
-      <img
-        alt="Vue logo"
-        class="logo cursor-pointer"
-        src="@/assets/logo.svg"
-        width="20"
-        height="20"
-      />
-    </div>
-    <div class="sidenav-links raisin-black-bg py-2 px-2">
-      <div class="sidenav-link py-3 px-1 active">
+  <div class="sidenav-wrapper fixed z-4 w-screen">
+    <div class="sidenav-links py-2 px-2 flex flex-wrap">
+      <div class="sidenav-link py-3 px-1 col-4 active">
         <a
           href="#"
           class="flex flex-column align-items-center text-xs shadow-blue no-underline"
           ><i class="pi pi-home mb-2 text-lg casper"></i> Dashboard</a
         >
       </div>
-      <div class="sidenav-link py-3 px-1">
+      <div class="sidenav-link py-3 px-1 col-4">
         <a
           href="#"
           class="flex flex-column align-items-center text-xs shadow-blue no-underline"
           ><i class="pi pi-book mb-2 text-lg casper"></i> Courses</a
         >
       </div>
-      <div class="sidenav-link py-3 px-1">
+      <div class="sidenav-link py-3 px-1 col-4">
         <a
           href="#"
           class="flex flex-column align-items-center text-xs shadow-blue no-underline"
           ><i class="pi pi-calendar mb-2 text-lg casper"></i> Schedule</a
         >
       </div>
-      <div class="sidenav-link py-3 px-1">
+      <div class="sidenav-link py-3 px-1 col-4">
         <a
           href="#"
           class="flex flex-column align-items-center text-xs shadow-blue no-underline"
@@ -47,35 +35,35 @@
           Announcements</a
         >
       </div>
-      <div class="sidenav-link py-3 px-1">
+      <div class="sidenav-link py-3 px-1 col-4">
         <a
           href="#"
           class="flex flex-column align-items-center text-xs shadow-blue no-underline"
           ><i class="pi pi-users mb-2 text-lg casper"></i> Students</a
         >
       </div>
-      <div class="sidenav-link py-3 px-1">
+      <div class="sidenav-link py-3 px-1 col-4">
         <a
           href="#"
           class="flex flex-column align-items-center text-xs shadow-blue no-underline"
           ><i class="pi pi-check-circle mb-2 text-lg casper"></i> Grades</a
         >
       </div>
-      <div class="sidenav-link py-3 px-1">
+      <div class="sidenav-link py-3 px-1 col-4">
         <a
           href="#"
           class="flex flex-column align-items-center text-xs shadow-blue no-underline"
           ><i class="pi pi-comments mb-2 text-lg casper"></i> Discussion</a
         >
       </div>
-      <div class="sidenav-link py-3 px-1">
+      <div class="sidenav-link py-3 px-1 col-4">
         <a
           href="#"
           class="flex flex-column align-items-center text-xs shadow-blue no-underline"
           ><i class="pi pi-folder mb-2 text-lg casper"></i> Files</a
         >
       </div>
-      <div class="sidenav-link py-3 px-1">
+      <div class="sidenav-link py-3 px-1 col-4">
         <a
           href="#"
           class="flex flex-column align-items-center text-xs shadow-blue no-underline"
@@ -102,6 +90,7 @@ export default {};
   }
   .sidenav-links {
     margin-top: 64px;
+    background: #131422e3;
     .sidenav-link {
       &:hover,
       &:focus {

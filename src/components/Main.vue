@@ -1,7 +1,6 @@
 <template>
   <!-- @TODO: 
-          fix colors and spacing 
-          fix scrollpanel
+          fix colors and spacing
   -->
   <div class="main-wrapper">
     <div class="p-3">

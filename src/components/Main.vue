@@ -68,9 +68,17 @@
           </div> -->
         </div>
         <div class="col-12 xl-2:col-4 p-0">
-          <Schedule class="m-2" />
-          <StudentStats class="mx-2 my-3" />
-          <Announcements class="mx-2 my-3" />
+          <div class="flex flex-wrap">
+            <div class="col-12 lg:col-6 xl-2:col-12 p-0">
+              <Schedule class="m-2" />
+            </div>
+            <div class="col-12 lg:col-6 xl-2:col-12 p-0">
+              <StudentStats class="m-2" />
+            </div>
+            <div class="col-12 lg:col-6 xl-2:col-12 p-0">
+              <Announcements class="m-2" />
+            </div>
+          </div>
         </div>
       </div>
       <!-- <div class="flex flex-row">

@@ -39,7 +39,9 @@
       </div>
     </div>
   </header>
-  <div class="w-screen h-screen absolute flex lg:hidden" @click="away()"></div>
+  <div class="fixed">
+    <div class="w-screen h-screen absolute flex lg:hidden" @click="away()"></div>
+  </div>
   <SideNavMobile v-if="showNav" />
   <ProfileMenuMobile v-if="showMenu" />
 </template>

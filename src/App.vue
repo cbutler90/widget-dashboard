@@ -7,9 +7,11 @@
       <Main style="padding-top: 64px" />
     </div>
   </div>
+  <GitHubLinkBar />
 </template>
 
 <script>
+  import GitHubLinkBar from '@/components/GitHubLinkBar.vue'
 import Main from '@/components/Main.vue';
 import SideNav from '@/components/SideNav.vue';
 import TopNav from '@/components/TopNav.vue';
@@ -17,6 +19,7 @@ import TopNavMobile from '@/components/TopNavMobile.vue';
 
 export default {
   components: {
+    GitHubLinkBar,
     Main,
     SideNav,
     TopNav,

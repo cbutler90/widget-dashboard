@@ -4,7 +4,7 @@
           fix color for active nav
           add marker to active nav
   -->
-  <div class="sidenav-wrapper fixed z-5 h-screen hidden lg:flex" style="width: 117px">
+  <div class="sidenav-wrapper fixed z-5 h-screen hidden lg:flex overflow-x-hidden" style="width: 117px">
     <div
       class="logo-wrapper fixed flex justify-content-center align-items-center"
       style="height: 64px; background-color: #2b2d46"

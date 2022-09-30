@@ -2,7 +2,7 @@
   <!-- @TODO: 
           fix colors and spacing
   -->
-  <div class="main-wrapper">
+  <div class="main-wrapper pb-3">
     <div class="p-3">
       <div class="flex flex-column xl-2:flex-row">
         <div class="col-12 xl-2:col-8 p-0">

@@ -1,29 +1,14 @@
-# dashboard-project
+# Widget Dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+See Project: [https://cb-widget-dashboard.herokuapp.com/](https://cb-widget-dashboard.herokuapp.com/)
 
-## Recommended IDE Setup
+## Overview
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+A former coworker and I were tasked to research Learning Management Systems. I took inspiration from our research and designs to build this dashboard featuring different widgets. The application frontend is built using Vue3, Sass, PrimeVue, PrimeFlex. 
 
-## Customize configuration
+Items I would still want to add:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- A drag and drop system for the widgets
+- resizable widgets
+- make all widgets functional (some are, but not all)
+- configure an API around the data
